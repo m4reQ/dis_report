@@ -135,7 +135,3 @@ def generate_report_html(code_obj: types.CodeType) -> str:
     print(f'Report document generated in {time.perf_counter() - start} seconds.')
 
     return str(doc)
-
-if __name__ == '__main__':
-    with open('result.html', 'w+') as f:
-        f.write(generate_report_html(generate_report_html.__code__))
