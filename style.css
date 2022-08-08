@@ -1,0 +1,52 @@
+body {
+    background-color: #002240;
+    font-family: 'Consolas';
+    color: white;
+}
+
+.header {
+    font-weight: bold;
+    text-align: center;
+    color: #7d7d7d
+}
+
+.attrib {
+    color: aqua;
+    font-style: italic;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    color: #c7c108;
+}
+
+tr:hover {
+    background-color: #032f57;
+}
+
+.value {
+    color: #0db804;
+}
+
+#title {
+    color: #7a7a7a;
+    text-align: center;
+}
+
+#obj_name {
+    text-align: center;
+}
+
+.opcode {
+    color: #b029ff;
+}
+
+.lineno {
+    color: #ff8426;
+    font-weight: bold;
+}
