@@ -3,7 +3,7 @@ A python script that lets you generate bytecode object dissasembly report which 
 ### USAGE
 cmd:
 ```
-py dis_report <module_name> <object_name> -o <output_file>
+py -m dis_report <module_name> <object_name> -o <output_file>
 ```
 Where _object_name_ is the name of python object from which to retrieve code.
 <br />
