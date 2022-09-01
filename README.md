@@ -11,7 +11,7 @@ python:
 ```python
 import dis_report
 
-def your_function(foo):
+def my_function(foo):
 	print(foo)
 
 report = dis_report.generate_report_html(my_function.__code__)
